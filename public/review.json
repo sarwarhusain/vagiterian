@@ -2,31 +2,101 @@
   {
     "_id": "643010e0f5a7e52ce1e8fa65",
     "name": "Jane Doe",
-    "details": "Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-    "rating": 3
+    "email": "jane@example.com",
+    "age": 28,
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "details": "Jane is a software engineer with 5 years of experience in web development.",
+    "rating": 4,
+    "profession": "Software Engineer"
   },
   {
-    "_id": "643010f9f5a7e52ce1e8fa66",
-    "name": "John Doe",
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
-    "rating": 2
+    "_id": "643010e0f5a7e52ce1e8fab2",
+    "name": "John Smith",
+    "email": "john@example.com",
+    "age": 32,
+    "image": "https://randomuser.me/api/portraits/men/22.jpg",
+    "details": "John is a graphic designer who loves creating creative visuals.",
+    "rating": 5,
+    "profession": "Graphic Designer"
   },
   {
-    "_id": "6430110af5a7e52ce1e8fa67",
-    "name": "MJ Doe",
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)",
-    "rating": 5
+    "_id": "643010e0f5a7e52ce1e8fab3",
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "age": 26,
+    "image": "https://randomuser.me/api/portraits/women/65.jpg",
+    "details": "Alice is a content writer passionate about technology and lifestyle topics.",
+    "rating": 4,
+    "profession": "Content Writer"
   },
   {
-    "_id": "64301123f5a7e52ce1e8fa68",
-    "name": "Sarah Smith",
-    "details": "I found the product to be incredibly useful and easy to use. The interface is intuitive, and it has all the features I need. Highly recommend it!",
-    "rating": 4
+    "_id": "643010e0f5a7e52ce1e8fab4",
+    "name": "Michael Brown",
+    "email": "michael@example.com",
+    "age": 35,
+    "image": "https://randomuser.me/api/portraits/men/33.jpg",
+    "details": "Michael is a project manager with expertise in agile methodology.",
+    "rating": 5,
+    "profession": "Project Manager"
   },
   {
-    "_id": "6430113af5a7e52ce1e8fa69",
-    "name": "Robert Johnson",
-    "details": "This is by far the best service I have ever used. The customer support is outstanding, and the product itself is top-notch. I couldn't be happier!",
-    "rating": 5
+    "_id": "643010e0f5a7e52ce1e8fab5",
+    "name": "Emma Wilson",
+    "email": "emma@example.com",
+    "age": 30,
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
+    "details": "Emma is a digital marketer specializing in social media campaigns.",
+    "rating": 4,
+    "profession": "Digital Marketer"
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fab6",
+    "name": "David Lee",
+    "email": "david@example.com",
+    "age": 29,
+    "image": "https://randomuser.me/api/portraits/men/45.jpg",
+    "details": "David is a data analyst skilled in Python and SQL.",
+    "rating": 5,
+    "profession": "Data Analyst"
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fab7",
+    "name": "Sophia Martinez",
+    "email": "sophia@example.com",
+    "age": 27,
+    "image": "https://randomuser.me/api/portraits/women/52.jpg",
+    "details": "Sophia is an UX/UI designer focused on improving user experiences.",
+    "rating": 4,
+    "profession": "UX/UI Designer"
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fab8",
+    "name": "James Anderson",
+    "email": "james@example.com",
+    "age": 31,
+    "image": "https://randomuser.me/api/portraits/men/55.jpg",
+    "details": "James is a backend developer experienced in Node.js and MongoDB.",
+    "rating": 5,
+    "profession": "Backend Developer"
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8fab9",
+    "name": "Olivia Taylor",
+    "email": "olivia@example.com",
+    "age": 24,
+    "image": "https://randomuser.me/api/portraits/women/23.jpg",
+    "details": "Olivia is a junior front-end developer learning React and Tailwind CSS.",
+    "rating": 4,
+    "profession": "Front-end Developer"
+  },
+  {
+    "_id": "643010e0f5a7e52ce1e8faba",
+    "name": "William Harris",
+    "email": "william@example.com",
+    "age": 33,
+    "image": "https://randomuser.me/api/portraits/men/66.jpg",
+    "details": "William is a DevOps engineer passionate about cloud infrastructure.",
+    "rating": 5,
+    "profession": "DevOps Engineer"
   }
 ]

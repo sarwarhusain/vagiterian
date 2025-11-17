@@ -1,226 +1,250 @@
 [
   {
-    "id": 0,
+    "id": "0",
     "name": "Cucumber",
     "price": 48,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501601/Vegetables/cucumber_kpq6sh.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 1,
+    "id": "1",
     "name": "Beetroot",
     "price": 32,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501678/Vegetables/beetroot_gm73aj.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "Carrot",
     "price": 56,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501693/Vegetables/carrots_ex58uy.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Tomato",
     "price": 16,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501718/Vegetables/tomato_fs1kba.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "Beans",
     "price": 82,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501748/Vegetables/beans_kcvhru.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "Brinjal",
     "price": 35,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501758/Vegetables/brinjal_ee1zpc.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 6,
+    "id": "6",
     "name": "Capsicum",
     "price": 60,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501793/Vegetables/capsicum_ckb0kj.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 7,
+    "id": "7",
     "name": "Mushroom",
     "price": 75,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600503502/Vegetables/mushroom_yhkxdp.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 8,
+    "id": "8",
     "name": "Potato",
     "price": 22,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501915/Vegetables/potato_lahcmj.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 9,
+    "id": "9",
     "name": "Pumpkin",
     "price": 48,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501928/Vegetables/pumpkin_y8ybww.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 10,
+    "id": "10",
     "name": "Corn",
     "price": 75,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501963/Vegetables/corn_o4agvk.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 11,
+    "id": "11",
     "name": "Onion",
     "price": 16,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600501984/Vegetables/onion_vx0wvu.jpg",
     "category": "vegetables",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 12,
+    "id": "12",
     "name": "Apple",
     "price": 72,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502011/Vegetables/apple_cpepjd.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 13,
+    "id": "13",
     "name": "Banana",
     "price": 45,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502068/Vegetables/banana_l2onbh.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 14,
+    "id": "14",
     "name": "Grapes",
     "price": 60,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502106/Vegetables/grapes_ve5kpc.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 15,
+    "id": "15",
     "name": "Mango",
     "price": 75,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502150/Vegetables/mango_riithu.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 16,
+    "id": "16",
     "name": "Musk Melon",
     "price": 36,
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/musk-melon.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 17,
+    "id": "17",
     "name": "Orange",
     "price": 75,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502254/Vegetables/orange_updwiw.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 18,
+    "id": "18",
     "name": "Pears",
     "price": 69,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502307/Vegetables/pears_zusf6q.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 19,
+    "id": "19",
     "name": "Pomegranate",
     "price": 95,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502375/Vegetables/pomegranate_z0tckc.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 20,
+    "id": "20",
     "name": "Raspberry",
     "price": 160,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502444/Vegetables/raspberry_pfnsih.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 21,
+    "id": "21",
     "name": "Strawberry",
     "price": 180,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502516/Vegetables/strawberry_ndm8my.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 22,
+    "id": "22",
     "name": "Water Melon",
     "price": 28,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502590/Vegetables/water-melon_c2e6sq.jpg",
     "category": "fruits",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 23,
+    "id": "23",
     "name": "Almonds",
     "price": 200,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502665/Vegetables/almonds_oql1sq.jpg",
     "category": "nuts",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 24,
+    "id": "24",
     "name": "Pista",
     "price": 190,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502742/Vegetables/pista_jkflho.jpg",
     "category": "nuts",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 25,
+    "id": "25",
     "name": "Nuts Mixture",
     "price": 950,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502822/Vegetables/nuts-mixture_hukvyk.jpg",
     "category": "nuts",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 26,
+    "id": "26",
     "name": "Cashews",
     "price": 650,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502903/Vegetables/cashews_lktf34.jpg",
     "category": "nuts",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   },
   {
-    "id": 27,
+    "id": "27",
     "name": "Walnuts",
     "price": 170,
     "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502986/Vegetables/walnuts_zkylm6.jpg",
     "category": "nuts",
-    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs.ß"
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
+  },
+  {
+    "id": "28",
+    "name": "Walnuts",
+    "price": 170,
+    "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502986/Vegetables/walnuts_zkylm6.jpg",
+    "category": "nuts",
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
+  },
+  {
+    "id": "29",
+    "name": "Walnuts",
+    "price": 170,
+    "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502986/Vegetables/walnuts_zkylm6.jpg",
+    "category": "nuts",
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
+  },
+  {
+    "id": "30",
+    "name": "Walnuts",
+    "price": 170,
+    "image": "https://res.cloudinary.com/dmex2rvcr/image/upload/v1600502986/Vegetables/walnuts_zkylm6.jpg",
+    "category": "nuts",
+    "descrition": "Specific vegetables may offer more health advantages to certain people, depending on their diets, overall health, and nutritional needs."
   }
 ]
