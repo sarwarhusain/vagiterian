@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import coverImg from "../../../../images/bg/annie-spratt-m1t-RJ1iCIU-unsplash.jpg";
+import ShopTab from "../ShopTab/ShopTab";
+import useMenu from "../../../../hooks/useMenu";
+import Cover from "../../../Shared/Cover/Cover";
+import coverImg from "../../../../../images/bg/annie-spratt-m1t-RJ1iCIU-unsplash.jpg";
 import { useParams } from "react-router";
 const Shop = (showCover = true) => {
   //main khela routeser uniqe id diye product ke call kora
