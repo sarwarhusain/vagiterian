@@ -51,14 +51,14 @@ const NavBar = () => {
           {/* Login / Register */}
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <a className="rounded-md bg-green-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm dark:hover:bg-teal-500" href="#">
+              <Link to={'/login'} className="rounded-md bg-green-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm dark:hover:bg-teal-500" href="#">
                 Login
-              </a>
+              </Link>
 
               <div className="hidden sm:flex">
-                <a className="rounded-md text-white px-5 py-2.5 text-sm font-medium bg-green-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75" href="#">
+                <Link to={"/register"} className="rounded-md text-white px-5 py-2.5 text-sm font-medium bg-green-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75" href="#">
                   Register
-                </a>
+                </Link>
               </div>
             </div>
 

@@ -12,3 +12,13 @@ const ShopTab = ({ products, title, img }) => {
 };
 
 export default ShopTab;
+
+// const chunkProducts = (arr, size) => {
+//     const chunks = [];
+//     for (let i = 0; i < arr.length; i += size) {
+//       chunks.push(arr.slice(i, i + size));
+//     }
+//     return chunks;
+//   };
+
+//   const slides = chunkProducts(products, 6); // 6 items per slide

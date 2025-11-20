@@ -7,11 +7,12 @@ import Cover from "../../../Shared/Cover/Cover";
 import coverImg from "../../../../../images/bg/annie-spratt-m1t-RJ1iCIU-unsplash.jpg";
 import { useParams } from "react-router";
 const Shop = (showCover = true) => {
-  //main khela routeser uniqe id diye product ke call kora
+  //main khela router uniqe id diye product ke call kora
   const categories = ["vegetables", "fruits", "nuts"];
   const { category } = useParams();
   const initialIndex = categories.indexOf(category);
   const [tabIndex, setTabIndex] = useState(initialIndex);
+  console.log(category);
   //end
   const limit = 8;
   const [menu] = useMenu();

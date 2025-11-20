@@ -1,5 +1,5 @@
-import Product from "../../../Shared/Product";
-import useMenu from "../../../../hooks/useMenu";
+import Product from "../../Shared/Product";
+import useMenu from "../../../hooks/useMenu";
 
 const PopularProducts = () => {
   const [menu] = useMenu();

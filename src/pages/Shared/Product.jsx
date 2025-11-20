@@ -8,7 +8,7 @@ const Product = ({ product }) => {
         <span class="bg-yellow-400 relative px-3 py-1.5 text-xs rounded-sm font-medium whitespace-nowrap">
           {category}
         </span>
-        <img className=" -mt-10" src={image} />
+        <img className="shadow-2xl rounded-3xl -mt-10" src={image} />
         <div className="flex gap-5 items-center justify-between ">
           <h3 class="mt-4 text-lg font-medium text-gray-900">{name}</h3>
           <p class="bg-white  mt-4 px-3 py-1.5 text-sm rounded-sm font-medium">
