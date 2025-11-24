@@ -3,7 +3,9 @@ import Root from "../Layout/Root/Root";
 import Home from "../pages/Home/Home/Home";
 import Shop from "../pages/Home/Shop/Shop/Shop";
 import Login from "../pages/Login/Login";
-import Register from "../pages/Register/Register";
+import SignUp from "../pages/SignUp/SignUp";
+import PrivateRoutes from "./PrivateRoutes";
+import Secret from "../pages/Shared/Secret/Secret";
 
 export const router = createBrowserRouter([
   {
@@ -16,16 +18,24 @@ export const router = createBrowserRouter([
       },
       {
         path: "shop/:category",
-        Component:  Shop,
+        Component: Shop,
       },
       {
-        path:'login',
-        Component:Login
+        path: "login",
+        Component: Login,
       },
       {
-        path:'register',
-        Component:Register
-      }
+        path: "signup",
+        Component: SignUp,
+      },
+      {
+        path: "secret",
+        element: (
+          <PrivateRoutes>
+            <Secret></Secret>
+          </PrivateRoutes>
+        ),
+      },
     ],
   },
 ]);

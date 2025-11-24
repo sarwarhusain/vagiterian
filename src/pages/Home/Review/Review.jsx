@@ -15,14 +15,13 @@ import SectionTitle from "../../../component/SectionTitle/SectionTitle";
 const Review = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("review.json")
+    fetch("http://localhost:5001/reviews")
       .then((res) => res.json())
       .then((data) => {
         setReviews(data);
       });
   }, []);
   return (
-    
     <section className=" mt-10 ">
       <SectionTitle
         heading={"Our Testimonial"}

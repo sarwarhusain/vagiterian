@@ -1,11 +1,65 @@
+import { useContext, useEffect, useState } from "react";
+import {
+  LoadCanvasTemplate,
+  loadCaptchaEnginge,
+  validateCaptcha,
+} from "react-simple-captcha";
+import { Link, useLocation, useNavigate } from "react-router";
+import { AuthContext } from "../../providers/AuthContext";
+import Swal from "sweetalert2";
 
 const Login = () => {
+  const { signIn } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [disabled, setDisabled] = useState(true);
+  // const captchaRef = useRef(null);
+
+  const from = location.state?.from?.pathname || "/"; //location
+  console.log("state in the location", location.state);
+
+  useEffect(() => {
+    loadCaptchaEnginge(4);
+  }, []);
+
   const handleLogin = (e) => {
     e.preventDefault();
     const form = e.target;
     const email = form.email.value;
     const password = form.password.value;
     console.log(email, password);
+    //sigin
+    signIn(email, password)
+      .then((result) => {
+        console.log("Login success:", result.user);
+        Swal.fire({
+          title: "User Login successfully ",
+          showClass: {
+            popup: `
+      animate__animated animate__fadeInUp
+    `,
+          },
+          hideClass: {
+            popup: `
+      animate__animated
+      animate__fadeOutDown animate__faster
+    `,
+          },
+        });
+        navigate(from, { replace: true });
+      })
+      .catch((error) => {
+        console.log("Login error:", error);
+      });
+  };
+
+  const handleCaptcha = (e) => {
+    const user_captcha_value = e.target.value;
+    if (validateCaptcha(user_captcha_value)) {
+      setDisabled(false);
+    } else {
+      setDisabled(true);
+    }
   };
   return (
     <div className="hero bg-base-200 min-h-screen">
@@ -20,7 +74,7 @@ const Login = () => {
         </div>
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
           <form onSubmit={handleLogin} className="card-body">
-            <div className="fieldset">
+            <fieldset className="fieldset">
               <label className="label">Email</label>
               <input
                 type="email"
@@ -30,22 +84,37 @@ const Login = () => {
               />
               <label className="label">Password</label>
               <input
-                name="password"
                 type="password"
+                name="password"
                 className="input"
                 placeholder="Enter Your Password"
               />
 
               <div>
-                <a className="link link-hover">Forgot password?</a>
+                <LoadCanvasTemplate />
               </div>
               <input
-                className="btn btn-neutral mt-4"
-                type="submit"
-                value="Login"
+                type="captcha"
+                name="captcha"
+                className="input"
+                // ref={captchaRef}
+                onBlur={handleCaptcha}
+                placeholder="Generate the Code"
               />
-            </div>
+
+              <div>
+                <input
+                  className="btn btn-neutral mt-4"
+                  disabled={false}
+                  type="submit"
+                  value="Login"
+                />
+              </div>
+            </fieldset>
           </form>
+          <p className=" text-sm text-right mr-2 text-gray-500 font-semibold">
+            <Link to={"/signup"}> Don't Have an Account?</Link>
+          </p>
         </div>
       </div>
     </div>

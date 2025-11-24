@@ -1,12 +1,22 @@
 import { Link } from "react-router";
 import navImg from "../../../../images/cucumber.png";
-
+import { useContext } from "react";
+import { AuthContext } from "../../../providers/AuthContext";
+import { FaShoppingCart } from "react-icons/fa";
 const NavBar = () => {
+  const { user, logOut } = useContext(AuthContext);
+  const handleLogout = () => {
+    logOut()
+      .then(() => {})
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
   return (
-    <header className="bg-orange-100 fixed container mx-auto dark:bg-gray-900 z-10 opacity-40">
+    <header className="bg-orange-200 fixed container mx-auto text-white dark:bg-gray-900 z-10 opacity-40">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          
           {/* Logo */}
           <div className="md:flex md:items-center md:gap-12">
             <a className="block text-teal-600 dark:text-teal-600" href="#">
@@ -16,47 +26,72 @@ const NavBar = () => {
           </div>
 
           {/* Menu */}
-          <div className="hidden md:block">
+          <div className="hidden  md:block">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-sm">
-                
                 <Link to={"/"}>
-                  <li className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
+                  <li className="text-gray-700 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
                     Home
                   </li>
                 </Link>
 
                 <Link to={"/shop/vegetables"}>
-                  <li className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
+                  <li className="text-gray-700 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
                     Shop
                   </li>
                 </Link>
 
                 <Link>
-                  <li className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
+                  <li className="text-gray-700 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
                     Buy Products
                   </li>
                 </Link>
 
                 <Link>
-                  <li className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
+                  <li className="text-gray-700 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
                     DashBoard
                   </li>
                 </Link>
-
+                <Link to={"/secret"}>
+                  <li className="text-gray-700 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75">
+                    Secret
+                  </li>
+                </Link>
+                <button className="btn">
+                  <FaShoppingCart />
+                 <div className="badge badge-sm bg-green-300">0</div>
+                </button>
               </ul>
             </nav>
           </div>
 
           {/* Login / Register */}
           <div className="flex items-center gap-4">
+            {user ? (
+              <>
+                <button onClick={handleLogout} className="btn btn-ghost">
+                  {/* <span>{user.displayName}</span> */}
+                  LogOut
+                </button>
+              </>
+            ) : (
+              <>
+                <Link
+                  to={"/login"}
+                  className="rounded-md bg-green-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm dark:hover:bg-teal-500"
+                  href="#"
+                >
+                  Login
+                </Link>
+              </>
+            )}
             <div className="sm:flex sm:gap-4">
-              <Link to={'/login'} className="rounded-md bg-green-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm dark:hover:bg-teal-500" href="#">
-                Login
-              </Link>
-
               <div className="hidden sm:flex">
-                <Link to={"/register"} className="rounded-md text-white px-5 py-2.5 text-sm font-medium bg-green-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75" href="#">
+                <Link
+                  to={"/signup"}
+                  className="rounded-md text-white px-5 py-2.5 text-sm font-medium bg-green-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
                   Register
                 </Link>
               </div>
@@ -81,7 +116,6 @@ const NavBar = () => {
                 </svg>
               </button>
             </div>
-
           </div>
         </div>
       </div>
