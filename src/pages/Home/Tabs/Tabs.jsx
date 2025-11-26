@@ -1,7 +1,8 @@
 const Tabs = () => {
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-4  items-center justify-center">
-      <div className="card bg-gray-100  w-50 shadow-sm flex items-center justify-center mt-5">
+      <div className="card bg-gray-100  transform transition-transform duration-300 ease-in-out
+                      hover:scale-105 hover:-rotate-2 hover:shadow-2xl hover:-translate-y-2 w-50 shadow-sm flex items-center justify-center mt-5">
         <figure className="bg-orange-300 rounded-2xl m-5 p-5 shadow-lg w-20 h-15 flex items-center justify-center text-white text-xl font-semibold">
           <i class="fa-duotone fa-solid fa-car-side"></i>
         </figure>
@@ -10,7 +11,8 @@ const Tabs = () => {
           <p className="text-gray-700">Free on order over $100</p>
         </div>
       </div>
-      <div className="card bg-gray-100  w-50 shadow-sm flex items-center justify-center mt-5">
+      <div className="card bg-gray-100 transform transition-transform duration-300 ease-in-out
+                      hover:scale-105 hover hover:shadow-2xl hover:-translate-x-2 w-50 shadow-sm flex items-center justify-center mt-5">
         <figure className="bg-orange-300 rounded-2xl m-5 p-5 shadow-lg w-20 h-15 flex items-center justify-center text-white text-xl font-semibold">
           <i class="fa-solid fa-right-left"></i>
         </figure>
@@ -19,7 +21,8 @@ const Tabs = () => {
           <p className="text-gray-700">30 day money guarantee</p>
         </div>
       </div>
-      <div className="card bg-gray-100  w-50 shadow-sm flex items-center justify-center mt-5">
+      <div className="card bg-gray-100 transform transition-transform duration-300 ease-in-out
+                      hover:scale-105 hover:-rotate-2 hover:shadow-2xl hover:-translate-y-2 w-50 shadow-sm flex items-center justify-center mt-5">
         <figure className="bg-orange-300 rounded-2xl m-5 p-5 shadow-lg w-20 h-15 flex items-center justify-center text-white text-xl font-semibold">
           <i class="fa-solid fa-user-shield"></i>
         </figure>
@@ -28,7 +31,8 @@ const Tabs = () => {
           <p className="text-gray-700text-gray-700">100% security payment</p>
         </div>
       </div>
-      <div className="card bg-gray-100  w-50 shadow-sm flex items-center justify-center mt-5">
+      <div className="card bg-gray-100 transform transition-transform duration-300 ease-in-out
+                      hover:scale-105 hover:-rotate-2 hover:shadow-2xl hover:-translate-x-2 w-50 shadow-sm flex items-center justify-center mt-5">
         <figure className="bg-orange-300 rounded-2xl m-5 p-5 shadow-lg w-20 h-15 flex items-center justify-center text-white text-xl font-semibold">
           <i class="fa-solid fa-phone-volume"></i>
         </figure>

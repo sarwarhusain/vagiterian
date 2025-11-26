@@ -21,7 +21,7 @@ const Banner = () => {
       <title>Banner | Vagiterian</title>
     </Helmet>
       <div className="bg_color text-white ">
-        <div className="bg-black/40 w-full h-full flex items-center">
+        <div className="bg-black/40 w-full h-full flex items-center ">
           {/* Section container */}
           <section className="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 gap-10">
             {/* Text Section */}
